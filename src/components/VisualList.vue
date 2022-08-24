@@ -2,7 +2,7 @@
   <a v-bind:href="vlink">
       <div 
         class="visual-img bg"
-        :style="{backgroundImage:'url(' + require(`@/assets/images/${vimg}`) + ')'}"
+        :style="{background:'url(' + require ( `@/assets/images/${vimg}`) +    ')'}"
       ></div>
       <div class="visual-txt">
         <h3 class="visual-title">{{vtitle}}</h3>

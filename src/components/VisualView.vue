@@ -45,35 +45,28 @@ export default {
   setup(){
     const slideData = ref([]);
     slideData.value = [
-      {
-        vimg : 'PC_minimal_new.png',
-        vtitle : "밀크 에센스 로션",
-        vtxt: "국내 최초 100% <br />식품 그레이드 성분",
-        vbt: "SHOP", 
-        vlink : "#"
-      },
-      {
-        vimg : 'PC1_newborn.png',
-        vtitle : "제품2",
-        vtxt: "국내 최초 100% <br />식품 그레이드 성분",
-        vbt: "SHOP", 
-        vlink : "#"
-      },
-      {
-        vimg : 'PC2_BabyEssence.png',
-        vtitle : "제품3",
-        vtxt: "국내 최초 100% <br />식품 그레이드 성분",
-        vbt: "SHOP", 
-        vlink : "#"
-      },
-      {
-        vimg : 'PC3_Branding.png',
-        vtitle : "제품4",
-        vtxt: "국내 최초 100% <br />식품 그레이드 성분",
-        vbt: "SHOP", 
-        vlink : "#"
-      }
-    ];
+            {
+              vimg:'PC_minimal_new.png',
+              vtitle:"밀크 에센스 로션",
+              vtxt:"국내 최초 100% <br />식품 그레이드 성분",
+              vbt:"SHOP",
+              vlink:"#"
+            },
+            {
+              vimg:'PC1_newborn.png',
+              vtitle:"밀크 에센스 로션",
+              vtxt:"국내 최초 100% <br />식품 그레이드 성분",
+              vbt:"SHOP",
+              vlink:"#"
+            },
+            {
+              vimg:'PC3_Branding.png',
+              vtitle:"제품3",
+              vtxt:"국내 최초 100% <br />식품 그레이드 성분",
+              vbt:"SHOP",
+              vlink:"#"
+            }
+          ];
 
 
     const onSwiper = (swiper) => {
